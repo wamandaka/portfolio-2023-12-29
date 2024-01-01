@@ -74,7 +74,8 @@ const Skill = () => {
           </div>
           <div className="flex flex-col items-center bg-[#ED7854] rounded-xl gap-1 py-2 w-[40%]">
             <SiAdobephotoshop size={40} />
-            <p>Adobe Photoshop</p>
+            <p className="hidden md:inline-block">Adobe Photoshop</p>
+            <p className="md:hidden">Photoshop</p>
           </div>
         </div>
       </section>
