@@ -97,9 +97,9 @@ const Project = () => {
           </div>
           <div className="flex flex-col justify-center gap-3 md:w-[45%] lg:w-[30%]">
             <h1 className=" text-3xl font-bold lg:text-2xl">
-              Reverse 1999 Character List API
+              Reverse 1999 Character List
             </h1>
-            <div className="flex gap-3 text-white overflow-scroll md:gap-2 lg: lg:overflow-visible">
+            <div className="flex gap-3 text-white flex-wrap md:gap-2 lg:flex-nowrap lg:overflow-scroll">
               <span className="px-5 py-2 bg-green-800 rounded-full md:px-4 md:py-1">
                 NodeJS
               </span>
