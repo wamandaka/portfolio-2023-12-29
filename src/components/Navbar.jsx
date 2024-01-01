@@ -27,9 +27,9 @@ const Navbar = () => {
       >
         <div className="w-full h-24 flex justify-between items-center">
           <h1 className="font-lobster text-4xl">
-            <a href="#" className="font-bold group relative inline-block">
+            <a href="#" className="font-bold group relative">
               Daka
-              <span class="absolute left-0 -bottom-1 h-1 rounded-full bg-slate-800 transform w-0 transition-all group-hover:w-full"></span>
+              <span class="absolute left-0 -bottom-1 h-1 rounded-full bg-slate-800 transform w-0 transition-all duration-300 group-hover:w-full"></span>
             </a>
           </h1>
           <ul className="md:flex gap-4 hidden font-bold text-lg lg:gap-10">
