@@ -4,7 +4,7 @@ import Project from "./components/Project";
 import Navbar from "./components/Navbar";
 import Skill from "./components/Skill";
 import Footer from "./components/Footer";
-import { SpeedInsights } from "@vercel/speed-insights/next";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 function App() {
   return (
