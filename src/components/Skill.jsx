@@ -14,13 +14,17 @@ import {
   SiPrisma,
   SiAdobephotoshop,
   SiFigma,
-  SiFig
+  SiFig,
 } from "react-icons/si";
+import SkillCard from "./SkillCard";
 
 const Skill = () => {
   return (
     <>
-      <section id="skills" className="w-full mx-auto px-4 lg:flex lg:flex-col lg:items-center">
+      <section
+        id="skills"
+        className="w-full mx-auto px-4 lg:flex lg:flex-col lg:items-center"
+      >
         <div className="flex flex-col pt-24 justify-center text-center gap-3 md:mx-auto md:w-[60%]">
           <h1 className=" text-5xl font-bold md:text-6xl">Skills</h1>
           <p className=" text-xl font-bold md:text-2xl">
@@ -28,55 +32,91 @@ const Skill = () => {
           </p>
         </div>
         <div className="w-full flex flex-wrap rounded-lg p-5 gap-2 text-white mt-10 justify-center lg:w-1/2 ">
-          <div className="flex flex-col items-center bg-[#ED7854] rounded-xl gap-1 py-2 w-[40%]">
-            <FaHtml5 size={40} />
-            <p>HTML</p>
-          </div>
-          <div className="flex flex-col items-center bg-[#ED7854] rounded-xl gap-1 py-2 w-[55%]">
-            <FaCss3 size={40} />
-            <p>CSS</p>
-          </div>
-          <div className="flex flex-col items-center bg-[#ED7854] rounded-xl gap-1 py-2 w-[55%]">
-            <FaJs size={40} />
-            <p>Javascript</p>
-          </div>
-          <div className="flex flex-col items-center bg-[#ED7854] rounded-xl gap-1 py-2 w-[40%]">
-            <FaReact size={40} />
-            <p>ReactJS</p>
-          </div>
-          <div className="flex flex-col items-center bg-[#ED7854] rounded-xl gap-1 py-2 w-[40%]">
-            <SiTailwindcss size={40} />
-            <p>TailwindCSS</p>
-          </div>
-          <div className="flex flex-col items-center bg-[#E13738] rounded-xl gap-1 py-2 w-[55%]">
-            <FaNodeJs size={40} />
-            <p>NodeJS</p>
-          </div>
-          <div className="flex flex-col items-center bg-[#E13738] rounded-xl gap-1 py-2 w-[55%]">
-            <SiExpress size={40} />
-            <p>ExpressJS</p>
-          </div>
-          <div className="flex flex-col items-center bg-[#E13738] rounded-xl gap-1 py-2 w-[40%]">
-            <SiPostgresql size={40} />
-            <p>PostgreSQL</p>
-          </div>
-          <div className="flex flex-col items-center bg-[#E13738] rounded-xl gap-1 py-2 w-[40%]">
-            <SiPrisma size={40} />
-            <p>Prisma ORM</p>
-          </div>
-          <div className="flex flex-col items-center bg-[#E13738] rounded-xl gap-1 py-2 w-[55%]">
-            <FaGithub size={40} />
-            <p>Github</p>
-          </div>
-          <div className="flex flex-col items-center bg-[#ED7854] rounded-xl gap-1 py-2 w-[55%]">
-            <SiFigma size={40} />
-            <p>Figma</p>
-          </div>
-          <div className="flex flex-col items-center bg-[#ED7854] rounded-xl gap-1 py-2 w-[40%]">
-            <SiAdobephotoshop size={40} />
-            <p className="hidden md:inline-block">Adobe Photoshop</p>
-            <p className="md:hidden">Photoshop</p>
-          </div>
+          <SkillCard
+            skillName="HTML"
+            icon={FaHtml5}
+            iconSize={40}
+            cardWidth={"[40%]"}
+            bgColor={"[#ED7854]"}
+          />
+          <SkillCard
+            skillName="CSS"
+            icon={FaCss3}
+            iconSize={40}
+            cardWidth={"[55%]"}
+            bgColor={"[#ED7854]"}
+          />
+          <SkillCard
+            skillName="Javascript"
+            icon={FaJs}
+            iconSize={40}
+            cardWidth="[55%]"
+            bgColor="[#ED7854]"
+          />
+          <SkillCard
+            skillName="ReactJS"
+            icon={FaReact}
+            iconSize={40}
+            cardWidth="[40%]"
+            bgColor="[#ED7854]"
+          />
+          <SkillCard
+            skillName="TailwindCSS"
+            icon={SiTailwindcss}
+            iconSize={40}
+            cardWidth="[40%]"
+            bgColor="[#ED7854]"
+          />
+          <SkillCard
+            skillName="NodeJS"
+            icon={FaNodeJs}
+            iconSize={40}
+            cardWidth="[55%]"
+            bgColor="[#E13738]"
+          />
+          <SkillCard
+            skillName="ExpressJS"
+            icon={SiExpress}
+            iconSize={40}
+            cardWidth="[55%]"
+            bgColor="[#E13738]"
+          />
+          <SkillCard
+            skillName="PostgreSQL"
+            icon={SiPostgresql}
+            iconSize={40}
+            cardWidth="[40%]"
+            bgColor="[#E13738]"
+          />
+          <SkillCard
+            skillName="Prisma ORM"
+            icon={SiPrisma}
+            iconSize={40}
+            cardWidth="[40%]"
+            bgColor="[#E13738]"
+          />
+          <SkillCard
+            skillName="Github"
+            icon={FaGithub}
+            iconSize={40}
+            cardWidth="[55%]"
+            bgColor="[#E13738]"
+          />
+          <SkillCard
+            skillName="Figma"
+            icon={SiFigma}
+            iconSize={40}
+            cardWidth="[55%]"
+            bgColor="[#ED7854]"
+          />
+          <SkillCard
+            skillName="Photoshop"
+            icon={SiAdobephotoshop}
+            iconSize={40}
+            cardWidth="[40%]"
+            bgColor="[#ED7854]"
+            className="hidden md:inline-block"
+          />
         </div>
       </section>
     </>
