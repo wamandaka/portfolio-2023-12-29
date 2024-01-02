@@ -21,8 +21,8 @@ const Navbar = () => {
         id="navbar"
         className={
           scroll
-            ? "w-full fixed top-0 mx-auto px-4 md:px-16 lg:px-32 bg-white backdrop-blur-sm z-50 bg-opacity-5 drop-shadow-2xl"
-            : "w-full fixed top-0 mx-auto px-4 md:px-16 lg:px-32"
+            ? "w-full fixed top-0 mx-auto px-4 md:px-16 lg:px-36 bg-white backdrop-blur-sm z-50 bg-opacity-5 drop-shadow-2xl"
+            : "w-full fixed top-0 mx-auto px-4 md:px-16 lg:px-36"
         }
       >
         <div className="w-full h-24 flex justify-between items-center">
