@@ -35,7 +35,7 @@ const Project = () => {
             </div>
             <div className="flex gap-5 ml-5">
               <a
-                href="https://github.com/wamandaka/react-app-landingpage"
+                href="https://github.com/wamandaka/landing-page-reactjs.git"
                 className="font-bold text-xl flex items-center gap-1"
                 target="_blank"
                 rel="noreferrer"
@@ -76,7 +76,7 @@ const Project = () => {
             </div>
             <div className="flex gap-5 ml-5">
               <a
-                href="https://github.com/wamandaka/react-app-weatherapp"
+                href="https://github.com/wamandaka/weather-app-reactjs.git"
                 className="font-bold text-xl flex items-center gap-1"
                 target="_blank"
                 rel="noreferrer"
