@@ -1,6 +1,6 @@
 import React from "react";
 import landingPage from "../assets/landing-page.png";
-import prakiraanCuaca from "../assets/prakiraan-cuaca.png";
+import prakiraanCuaca from "../assets/prakiraan-cuaca.jpg";
 import reverse from "../assets/reverse.png";
 import { IoLogoGithub } from "react-icons/io5";
 import { TbWorldWww } from "react-icons/tb";
