@@ -1,8 +1,10 @@
 import landingPage from "../assets/landing-page.png";
 import prakiraanCuaca from "../assets/prakiraan-cuaca.jpg";
 import reverse from "../assets/reverse.png";
+import saasLP from "../assets/saas.png"
 import { IoLogoGithub } from "react-icons/io5";
 import { TbWorldWww } from "react-icons/tb";
+import { CiPen } from "react-icons/ci";
 
 const Project = () => {
   return (
@@ -16,7 +18,50 @@ const Project = () => {
         </div>
         <div className="flex flex-col pt-16 gap-16 md:gap-10 md:justify-between md:flex-wrap md:w-[90%] md:mx-auto md:pt-10 md:flex-row lg:pt-20">
           <div className="flex flex-col justify-center gap-3 md:w-[45%] lg:w-[30%]">
-            <h1 className=" text-3xl font-bold lg:text-2xl">Landing Page</h1>
+            <h1 className=" text-3xl font-bold lg:text-2xl">Slicing UI</h1>
+            <div className="flex gap-3 text-white md:gap-2">
+              <span className="px-5 py-2 bg-blue-800 rounded-full md:px-4 md:py-1">
+                ReactJS
+              </span>
+              <span className="px-5 py-2 bg-sky-400 rounded-full md:px-4 md:py-1">
+                TailwindCSS
+              </span>
+            </div>
+            <div className="w-full p-5 bg-[#ED7854] rounded-3xl md:p-3">
+              <img src={saasLP} alt="" className="rounded-2xl shadow-2xl" />
+            </div>
+            <div className="flex gap-5 ml-5">
+              <a
+                href="https://github.com/wamandaka/saas-landing-page-design-by-animaapp.com.git"
+                className="font-bold text-xl flex items-center gap-1"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Github
+                <IoLogoGithub size={30} />
+              </a>
+              <a
+                href="https://slicing-saas-landing-page.vercel.app/"
+                className="font-bold text-xl flex items-center gap-1"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Demo
+                <TbWorldWww size={30} />
+              </a>
+              <a
+                href="https://www.figma.com/file/rhNqIevZzQRXkqq7nP9qaQ/SaaS-Landing-Page-Template---Landing-Page-Template-ready-to-export-to-HTML---Landing-page-for-SaaS-(Community)?type=design&node-id=47%3A689&mode=dev"
+                className="font-bold text-xl flex items-center gap-1"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Design
+                <CiPen size={30} />
+              </a>
+            </div>
+          </div>
+          <div className="flex flex-col justify-center gap-3 md:w-[45%] lg:w-[30%]">
+            <h1 className=" text-3xl font-bold lg:text-2xl">Slicing UI</h1>
             <div className="flex gap-3 text-white md:gap-2">
               <span className="px-5 py-2 bg-blue-800 rounded-full md:px-4 md:py-1">
                 ReactJS
@@ -95,10 +140,10 @@ const Project = () => {
             </div>
           </div>
           <div className="flex flex-col justify-center gap-3 md:w-[45%] lg:w-[30%]">
-            <h1 className=" text-3xl font-bold lg:text-2xl">
-              Reverse 1999 Character List
+            <h1 className=" text-3xl font-bold lg:text-2xl md:text-nowrap md:overflow-scroll">
+              Reverse 1999 Character List API
             </h1>
-            <div className="flex gap-3 text-white flex-wrap md:gap-2 lg:flex-nowrap lg:overflow-scroll">
+            <div className="flex gap-3 text-white flex-wrap md:gap-2 md:flex-nowrap md:overflow-scroll">
               <span className="px-5 py-2 bg-green-800 rounded-full md:px-4 md:py-1">
                 NodeJS
               </span>
