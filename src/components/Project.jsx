@@ -15,11 +15,7 @@ const Project = () => {
           </p>
         </div>
         <div className="flex flex-col pt-16 gap-16 md:gap-10 md:justify-between md:flex-wrap md:w-[90%] md:mx-auto md:pt-10 md:flex-row lg:pt-20">
-          <div
-            data-aos="fade-up"
-            data-aos-duration="3000"
-            className="flex flex-col justify-center gap-3 md:w-[45%] lg:w-[30%]"
-          >
+          <div className="flex flex-col justify-center gap-3 md:w-[45%] lg:w-[30%]">
             <h1 className=" text-3xl font-bold lg:text-2xl">Landing Page</h1>
             <div className="flex gap-3 text-white md:gap-2">
               <span className="px-5 py-2 bg-blue-800 rounded-full md:px-4 md:py-1">
@@ -57,12 +53,7 @@ const Project = () => {
               </a>
             </div>
           </div>
-          <div
-            data-aos="fade-up"
-            data-aos-duration="3000"
-            data-aos-delay="50"
-            className="flex flex-col justify-center gap-3 md:w-[45%] lg:w-[30%]"
-          >
+          <div className="flex flex-col justify-center gap-3 md:w-[45%] lg:w-[30%]">
             <h1 className=" text-3xl font-bold lg:text-2xl">Weather App</h1>
             <div className="flex gap-3 text-white md:gap-2">
               <span className="px-5 py-2 bg-blue-800 rounded-full md:px-4 md:py-1">
@@ -103,12 +94,7 @@ const Project = () => {
               </a>
             </div>
           </div>
-          <div
-            data-aos="fade-up"
-            data-aos-duration="3000"
-            data-aos-delay="100"
-            className="flex flex-col justify-center gap-3 md:w-[45%] lg:w-[30%]"
-          >
+          <div className="flex flex-col justify-center gap-3 md:w-[45%] lg:w-[30%]">
             <h1 className=" text-3xl font-bold lg:text-2xl">
               Reverse 1999 Character List
             </h1>
