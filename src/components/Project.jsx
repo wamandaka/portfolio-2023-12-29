@@ -140,10 +140,10 @@ const Project = () => {
             </div>
           </div>
           <div className="flex flex-col justify-center gap-3 md:w-[45%] lg:w-[30%]">
-            <h1 className=" text-3xl font-bold lg:text-2xl md:text-nowrap md:overflow-scroll">
+            <h1 className=" text-3xl font-bold lg:text-2xl md:text-nowrap md:overflow-scroll md:hide-scrollbar">
               Reverse 1999 Character List API
             </h1>
-            <div className="flex gap-3 text-white flex-wrap md:gap-2 md:flex-nowrap md:overflow-scroll">
+            <div className="flex gap-3 text-white flex-wrap md:gap-2 md:flex-nowrap md:overflow-scroll md:hide-scrollbar">
               <span className="px-5 py-2 bg-green-800 rounded-full md:px-4 md:py-1">
                 NodeJS
               </span>
