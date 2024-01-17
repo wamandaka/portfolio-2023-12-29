@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import { IoArrowRedoSharp } from "react-icons/io5";
 import photoProfile from "../assets/photo.jpeg";
@@ -9,7 +11,7 @@ const Hero = () => {
         id="about"
         className="w-full pt-28  mx-auto px-4 md:px-10 md:pt-32 lg:px-48 lg:h-screen lg:pt-28"
       >
-        <div className="px-5 py-8 bg-gradient-to-tr from-cyan-500 via-purple-600 to-blue-600 rounded-3xl flex flex-col items-center space-y-5 text-white shadow-2xl">
+        <div className="px-5 py-8 gradient-background rounded-3xl flex flex-col items-center space-y-5 text-white shadow-2xl">
           <div className="w-28 h-28 rounded-full overflow-hidden border-4 border-white lg:w-32 lg:h-32">
             <img src={photoProfile} alt="" className="" />
           </div>
