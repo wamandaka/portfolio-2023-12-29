@@ -13,5 +13,10 @@
 
   ::-webkit-scrollbar {
     display: none;
+    scrollbar-width: none;
+  }
+
+  .gradient-background {
+    @apply bg-gradient-to-tr from-cyan-500 via-purple-600 to-blue-600 animate-gradientBackgroundAnimate;
   }
 }
