@@ -1,7 +1,8 @@
 import landingPage from "../assets/landing-page.png";
 import prakiraanCuaca from "../assets/prakiraan-cuaca.jpg";
 import reverse from "../assets/reverse.png";
-import saasLP from "../assets/saas.png"
+import saasLP from "../assets/saas.png";
+import personalWebAyaka from "../assets/personal-web-ayaka.png"
 import { IoLogoGithub } from "react-icons/io5";
 import { TbWorldWww } from "react-icons/tb";
 import { CiPen } from "react-icons/ci";
@@ -16,9 +17,56 @@ const Project = () => {
             Explore my latest projects showcased in the center of attention.
           </p>
         </div>
-        <div className="flex flex-col pt-16 gap-16 md:gap-10 md:justify-between md:flex-wrap md:w-[90%] md:mx-auto md:pt-10 md:flex-row lg:pt-20">
+        <div className="flex flex-col pt-16 gap-16 md:gap-10 md:justify-between md:flex-wrap md:w-[90%] md:mx-auto md:pt-10 md:flex-row lg:pt-20 lg:items-start lg:justify-center">
           <div className="flex flex-col justify-center gap-3 md:w-[45%] lg:w-[30%]">
-            <h1 className=" text-3xl font-bold lg:text-2xl">Slicing UI</h1>
+            <h1 className=" text-3xl font-bold lg:text-2xl">
+              Personal Website
+            </h1>
+            <div className="flex gap-3 text-white md:gap-2">
+              <span className="px-5 py-2 bg-blue-800 rounded-full md:px-4 md:py-1">
+                ReactJS
+              </span>
+              <span className="px-5 py-2 bg-sky-400 rounded-full md:px-4 md:py-1">
+                TailwindCSS
+              </span>
+            </div>
+            <div className="w-full p-5 bg-[#ED7854] rounded-3xl md:p-3">
+              <img src={personalWebAyaka} alt="" className="rounded-2xl shadow-2xl" />
+            </div>
+            <div className="flex gap-3">
+              <a
+                href="https://github.com/wamandaka/personal-website-ayaka.git"
+                className="font-bold text-xl flex items-center gap-1"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Github
+                <IoLogoGithub size={30} />
+              </a>
+              <a
+                href="https://personal-website-ayaka.vercel.app/"
+                className="font-bold text-xl flex items-center gap-1"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Demo
+                <TbWorldWww size={30} />
+              </a>
+              <a
+                href="https://www.figma.com/file/f6jQZZ2LAApH8n5SGC42F3/Design?type=design&node-id=4598%3A251&mode=design&t=enZN1KsRN4OOU8Qc-1"
+                className="font-bold text-xl flex items-center gap-1"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Design
+                <CiPen size={30} />
+              </a>
+            </div>
+          </div>
+          <div className="flex flex-col justify-center gap-3 md:w-[45%] lg:w-[30%]">
+            <h1 className=" text-3xl font-bold lg:text-2xl">
+              Saas Landing Page
+            </h1>
             <div className="flex gap-3 text-white md:gap-2">
               <span className="px-5 py-2 bg-blue-800 rounded-full md:px-4 md:py-1">
                 ReactJS
@@ -30,7 +78,7 @@ const Project = () => {
             <div className="w-full p-5 bg-[#ED7854] rounded-3xl md:p-3">
               <img src={saasLP} alt="" className="rounded-2xl shadow-2xl" />
             </div>
-            <div className="flex gap-5 ml-5">
+            <div className="flex gap-3">
               <a
                 href="https://github.com/wamandaka/saas-landing-page-design-by-animaapp.com.git"
                 className="font-bold text-xl flex items-center gap-1"
@@ -61,7 +109,9 @@ const Project = () => {
             </div>
           </div>
           <div className="flex flex-col justify-center gap-3 md:w-[45%] lg:w-[30%]">
-            <h1 className=" text-3xl font-bold lg:text-2xl">Slicing UI</h1>
+            <h1 className=" text-3xl font-bold lg:text-2xl">
+              Saas Landing Page
+            </h1>
             <div className="flex gap-3 text-white md:gap-2">
               <span className="px-5 py-2 bg-blue-800 rounded-full md:px-4 md:py-1">
                 ReactJS
@@ -77,7 +127,7 @@ const Project = () => {
                 className="rounded-2xl shadow-2xl"
               />
             </div>
-            <div className="flex gap-5 ml-5">
+            <div className="flex gap-3">
               <a
                 href="https://github.com/wamandaka/landing-page-reactjs.git"
                 className="font-bold text-xl flex items-center gap-1"
@@ -118,7 +168,7 @@ const Project = () => {
                 className="rounded-2xl shadow-2xl"
               />
             </div>
-            <div className="flex gap-5 ml-5">
+            <div className="flex gap-3">
               <a
                 href="https://github.com/wamandaka/weather-app-reactjs.git"
                 className="font-bold text-xl flex items-center gap-1"
@@ -160,7 +210,7 @@ const Project = () => {
             <div className="w-full p-5 bg-[#E13738] rounded-3xl md:p-3">
               <img src={reverse} alt="" className="rounded-2xl shadow-2xl" />
             </div>
-            <div className="flex gap-5 ml-5">
+            <div className="flex gap-3">
               <a
                 href="https://github.com/wamandaka/reverse-1999-characters-api-fanmade.git"
                 className="font-bold text-xl flex items-center gap-1"
