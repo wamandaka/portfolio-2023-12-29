@@ -16,7 +16,7 @@ export default {
       },
       animation: {
         underlineHover: "underlineAnimation 0.3s ease-out forwards",
-        gradientBackgroundAnimate: "gradientBackground 40s ease infinite",
+        gradientBackgroundAnimate: "gradientBackground 3s ease infinite",
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
