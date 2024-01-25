@@ -20,6 +20,6 @@
   }
 
   .gradient-background {
-    @apply bg-gradient-to-tr from-cyan-500 via-purple-600 to-blue-600 animate-gradientBackgroundAnimate;
+    @apply bg-gradient-to-tr from-cyan-500 via-purple-600 to-blue-600 animate-gradientBackgroundAnimate bg-[length:400%_400%] [animation-duration:_5s];
   }
 }
