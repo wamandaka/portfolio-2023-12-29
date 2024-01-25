@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useEffect, useState } from "react";
 import { HiMenuAlt3, HiOutlineX } from "react-icons/hi";
 
@@ -29,26 +30,26 @@ const Navbar = () => {
           <h1 className="font-lobster text-4xl">
             <a href="#" className="font-bold group relative">
               Daka
-              <span class="absolute left-0 -bottom-1 h-1 rounded-full bg-slate-800 transform w-0 transition-all duration-300 group-hover:w-full"></span>
+              <span className="absolute left-0 -bottom-1 h-1 rounded-full bg-slate-800 transform w-0 transition-all duration-300 group-hover:w-full"></span>
             </a>
           </h1>
           <ul className="md:flex gap-4 hidden font-bold text-lg lg:gap-10">
             <li>
               <a href="#about" className="relative group">
                 About
-                <span class="absolute left-0 -bottom-1 h-1 rounded-full bg-slate-800 transform w-0 transition-all group-hover:w-full"></span>
+                <span className="absolute left-0 -bottom-1 h-1 rounded-full bg-slate-800 transform w-0 transition-all group-hover:w-full"></span>
               </a>
             </li>
             <li>
               <a href="#project" className="relative group">
                 Project
-                <span class="absolute left-0 -bottom-1 h-1 rounded-full bg-slate-800 transform w-0 transition-all group-hover:w-full"></span>
+                <span className="absolute left-0 -bottom-1 h-1 rounded-full bg-slate-800 transform w-0 transition-all group-hover:w-full"></span>
               </a>
             </li>
             <li>
               <a href="#skills" className="relative group">
                 Skill
-                <span class="absolute left-0 -bottom-1 h-1 rounded-full bg-slate-800 transform w-0 transition-all group-hover:w-full"></span>
+                <span className="absolute left-0 -bottom-1 h-1 rounded-full bg-slate-800 transform w-0 transition-all group-hover:w-full"></span>
               </a>
             </li>
           </ul>
